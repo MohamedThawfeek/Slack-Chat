@@ -1,0 +1,17 @@
+.home {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: whitesmoke;
+  flex: 1;
+}
+
+.home img {
+  width: 200px;
+  object-fit: contain;
+}
+
+.home h1 {
+  margin-top: -30%;
+  text-transform: capitalize;
+}

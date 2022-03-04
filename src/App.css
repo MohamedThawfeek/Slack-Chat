@@ -1,0 +1,8 @@
+body {
+  --slack-color: #3f04f0;
+  overflow: auto;
+}
+
+.app {
+  display: flex;
+}

@@ -1,0 +1,35 @@
+.login {
+  display: grid;
+  place-items: center;
+  margin-top: 60px;
+}
+
+.login img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.login h4 {
+  margin-top: 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.login Button {
+  margin-top: 20px;
+  background: green;
+  color: white;
+  width: 300px;
+  font-weight: 600;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.login Button:hover {
+  background: transparent;
+  color: green;
+}
+
+.googleIcon {
+  margin-right: 20px;
+}

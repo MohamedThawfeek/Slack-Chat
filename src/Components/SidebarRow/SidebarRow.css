@@ -1,0 +1,26 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.sidebarRow:hover {
+  opacity: 0.9;
+  background: #00000036;
+}
+
+.sidebarIcon {
+  padding: 10px;
+  font-size: 18px !important;
+}
+
+.sidebarRow__chaneloption {
+  padding: 10px 0;
+  text-transform: capitalize;
+}
+
+.sidebarRow__hash {
+  padding: 10px;
+}

@@ -1,0 +1,48 @@
+.chatInput {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.chatInput input {
+  position: fixed;
+  bottom: 30px;
+  width: 45%;
+  margin-left: 20%;
+  padding: 13px;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.chatInput Button {
+  position: fixed;
+  bottom: 35px;
+  right: 12%;
+}
+
+.chatInput Button:hover {
+  background: transparent;
+}
+
+.chatInput Button:hover .MuiSvgIcon-root {
+  color: rgb(126, 199, 16);
+}
+
+@media (max-width: 950px) {
+  .chatInput input {
+    width: 30%;
+    margin-left: 10%;
+  }
+  .chatInput Button {
+    position: fixed;
+    bottom: 35px;
+    right: 18%;
+  }
+}
+
+@media (max-width: 600px) {
+  .chatInput input {
+    width: 25%;
+    margin-left: 10%;
+  }
+}
